@@ -19,7 +19,7 @@ CLOUDFLARE_DDNS_RECORD_ID=
 
 And run:
 ```
-docker run --env-file .env -it moveyourdigital/cloudflare-ddns:latest
+docker run --restart always --env-file .env -it moveyourdigital/cloudflare-ddns:latest
 ```
 
 ### Standalone
